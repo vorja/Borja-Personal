@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color:#000000;
+    color: white;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.contenedor{
+    text-align: center;
+    width: 85%;
+    padding: 1%;
+    background-color: #000000;
+    border-radius: 5%;
+    margin: 0 auto;}
+
+.menu{
+    text-emphasis-color: white;
+    background-color: #000000;
+    padding: 10px;
+    margin: 0 auto;
+    float: right;
+
+}
+hr{
+    size: 100%;
+}
+
+.principal{
+    width: 40%;
+    float: left;
+}
+.menu>ul>li{
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    border-style: solid;
+    margin-left: 3px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.menu>ul>li>a{    
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+
+}
+
+
+.yo{
+    text-align: left;
+}
+.yo2{
+    text-align: center;
+}
+.piedepagina{
+    width: 100%;
+    text-align: center;
+    background-color:#000000;
+    margin: 0 auto;
+    clear: both;
+
+}
+
+.lateral{
+    float: left;
+    width: 35%;
+}
+.izquierda{
+    float: left;
+}
+.masco{
+    text-align: center;
+}
+table, th, tr, td {
+    text-align: center;
+    margin: 0 auto;
+    border-style: solid;
+    border: 2;
+    border-color: white;
+  
+    width: 600px;
+}
